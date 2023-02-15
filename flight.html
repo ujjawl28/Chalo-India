@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight</title>
+    <link rel="stylesheet" href="./css/flight.css">
+
+    <!-- bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <section id="flight">
+        <nav class="navbar">
+            <h1 class="logo">Chalo India</h1>
+            <ul class="nav-links">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./flight.html">Flight</a></li>
+              <li><a href="./Book.html">Book Now</a></li>
+              <li><a href="./holiday.html">Holiday</a></li>
+              <li class="last"><a href="./exchange.html">Forex</a></li>
+            </ul>
+            <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl4k5mE0gns4he5FAsfwJpBaIIgTNxZxz8QQ&usqp=CAU alt="photo" class="menu-btn">
+             <!-- <div class="menu-btn"><i class="fa-solid fa-bars"></i></div> -->
+           </nav>
+
+        <div class="form">
+            <form action="" method="POST" action="">
+                <h1> Flight Details </h1>
+                <div class="item">
+                    <select name="" id="" required>
+                         <option value="Indore">Indore</option>
+                         <option value="Bhopal">Bhopal</option>
+                         <option value="Delhi">Delhi</option>
+                         <option value="Mumbai">Mumbai</option>
+                         <option value="Dehradun">Dehradun</option>
+                         <option value="Pune">Pune</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <select name="" id="" required>
+                         <option value="Chennai">Chennai</option>
+                         <option value="Bhopal">Bhopal</option>
+                         <option value="Delhi">Delhi</option>
+                         <option value="Mumbai">Mumbai</option>
+                         <option value="Dehradun">Dehradun</option>
+                         <option value="Pune">Pune</option>
+                    </select>
+                </div>
+               <div class="item">
+                    <input type="date" name="" id="item1" required>
+                </div>
+                <div class="item">
+                    <select name="" id="">
+                         <option value="Student Fares">Student Fares</option>
+                         <option value="Regular Fares">Regular Fares</option>
+                         <option value="Armed Forces Fares">Armed Forces Fares</option>
+                         <option value="Senior Citizen Fares">Senior Citizen Fares</option>
+                         <option value="Doctor & Nurses Fares">Senior Citizen Fares</option>
+                    </select>
+                </div>
+               <button type="button" class="btn btn-outline-info btn-lg" id="button">Submit</button>
+       
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+           <!-- <div class="footer-row"></div> -->
+            <div class="row">
+                <div class="footer-col col-lg-3 col-sm-6">
+                    <h2>Travel Resources</h2>
+                    <ul>
+                        <li>Airport Cabs</li>
+                        <li>Popular Airlines</li>
+                        <li>City Airline Routes</li>
+                        <li>Travel Guide</li>
+
+                    </ul>
+                </div>
+                <div class="footer-col col-lg-3 col-sm-6">
+                    <h2>Corporate Travel</h2>
+                    <ul>
+                        <li><a href="#" class="link">Corporate Travel</a></li>
+                        <li><a href="#" class="link">Corporate Hotel Booking</a></li>
+                        <li><a href="#" class="link">Corporate Flight Booking</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col col-lg-6 col-sm-12">
+                    <h3>Q. How do I make a flight booking on Chalo India?</h3>
+                    <p>
+                        You can book a flight on Chalo India in five easy steps: Head over to the Chalo India flight booking page, Enter your departure and arrival destinations, Select your air travel dates, Choose from our wide 
+                        range of flights based on your airfare preferences, Click on ‘Submit’ and your air flight booking is done.</p>
+                </div>
+           
+        </div>
+    </div>
+        <p class="copyright">Copyright © 2022 Travel</p>
+    </footer>
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+  
+        menuBtn.addEventListener('click',()=>{
+          navlinks.classList.toggle('mobile-menu')
+        })
+      </script>
+</body>
+</html>

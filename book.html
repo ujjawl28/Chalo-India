@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/book.css">
+
+    <!-- bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+</head>
+<body>
+  <section id="explore-fiji">
+    <nav class="navbar">
+        <h1 class="logo">Chalo India</h1>
+        <ul class="nav-links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./flight.html">Flight</a></li>
+          <li><a href="./Book.html">Book Now</a></li>
+          <li><a href="./holiday.html">Holiday</a></li>
+          <li class="last"><a href="./exchange.html">Forex</a></li>
+        </ul>
+        <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl4k5mE0gns4he5FAsfwJpBaIIgTNxZxz8QQ&usqp=CAU alt="photo" class="menu-btn">
+        
+       </nav> 
+    <div class="container">
+           <div class="explore-info">
+                <h3>Book Now </h3>
+              </div>
+               <div class="counter-form">
+                <form action="/action_page.php">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <select id="country" name="country">
+                        <option value="Delhi">Delhi</option>
+                        <option value="Dehradun">Dehradun</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Amritsar">Amritsar</option>
+                    </select>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+        </div>
+    </div>
+</section>
+  <!--  -->
+    <footer>
+      <div class="container">
+      
+          <div class="row">
+              <div class="footer-col col-lg-12 col-sm-12 ">
+                  <!-- <h2>Travel Resources</h2>
+                  <ul>
+                      <li>Airport Cabs</li>
+                      <li>Popular Airlines</li>
+                      <li>City Airline Routes</li>
+                      <li>Travel Guide</li>
+
+                  </ul> -->
+                  <h3 class="item">Q. In upcoming situation of Corona pandemic (Covid 19), where can we find safe and well sanitized hotels?</h3>
+                  <p>
+                    Chalo India in collaboration with various hotels have introduced goSafe Hotels, a collection of well sanitized hotels with trained staff who follow safe Practices at all times. These hotels have a Safe and Hygienic environment with daily disinfection of rooms, fresh room linens, regular sanitization of common areas, safe kitchen practices, maintenance of social distancing, guest and staff temperature check.
+                     The staff is trained on safe Practices and equipped with masks and gloves at all times. 
+                  </p>
+              </div>
+              
+              <div class="footer-col col-lg-12 col-sm-12">
+                  <h3>Q. What are the popular Indian cities which are frequently visited by people?</h3>
+                  <p>
+                    There are various Indian cities which are famous for Leisure travel. Popular ones are Goa, Jaipur, Manali, Pondicherry, Ooty and Nainital. 
+                    These cities also have wide variety of Hotel and alternate accommodation options for Couples and families.Chalo India is best platform to book
+                     Hotels in Goa, Hotels in Jaipur, Hotels in Manali, Hotels in Pondicherry, Hotels in Nainital and many such leisure cities. 
+                  </p>
+              </div>
+         
+      </div>
+  </div>
+      <p class="copyright">Copyright © 2022 Travel</p>
+  </footer>
+
+
+    <script src="https://kit.fontawesome.com/6da839ba48.js" crossorigin="anonymous"></script>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+  
+        menuBtn.addEventListener('click',()=>{
+          navlinks.classList.toggle('mobile-menu')
+        })
+      </script>
+</body>
+</html>

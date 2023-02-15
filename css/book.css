@@ -1,0 +1,226 @@
+*{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+/* navbar  */
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+    /* z-index: 2; */
+}
+ul{
+    list-style: none;
+}
+.logo{
+    padding-left: 15px;
+    font-size: 40px;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    /* margin: 0 40px; */
+    margin-right: 40px;
+    /* color: whitesmoke; */
+   width: 80px;
+}
+
+.nav-links  a{
+    color: whitesmoke;
+    text-decoration: none;
+    /* transition: all 0.5s ease; */
+
+}
+
+.nav-links  a:hover{
+    /* border-top: 3px solid #00a8b4; */
+    border-top: 3px solid black;
+    transition: all 0.5 ease;
+    /* color: #00a8b4; */
+    color: black;
+
+}
+
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+    opacity: 0.3;
+}
+
+#explore-fiji {
+    background-image: url(../image/explore-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    color: #fff;
+    text-align: center;
+}
+
+.explore-info h3 {
+    font-size: 106px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    text-align: center;
+    color:  whitesmoke;
+}
+
+
+
+input[type=text],
+select,
+textarea {
+    width: 50%;
+    color: black;
+    padding: 12px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    opacity: 0.7;
+}
+
+form textarea{
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 50%;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 12px 20px;
+    transition: all 0.5s ease;
+}
+
+/*footer*/
+ footer {
+    border-top: 3px solid black;
+    background-color: #F9F9F9; 
+
+}
+
+.footer-col h2{
+    color: black;
+    /* font-size: larger; */
+     /* text-align: center; */
+     padding-left: 30px;
+}
+
+/* .footer-col h3{
+    color: black;
+  
+    text-align: center;
+} */
+
+.footer-col ul li{
+    margin-top: 10px;
+}
+
+
+.copyright {
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    padding: 14px 0px;
+    margin: 50px 0px 0px 0px;
+}
+.row .item{
+    margin-top: 50px;
+    text-align: left;
+}
+
+.row h3{
+    margin-top: 30px;
+    text-align: left;
+}
+
+  @media only screen and (max-width:850px){
+    .navbar{
+        padding: 0;
+        /* margin-top: 0; */
+    }
+    .logo{
+        position: absolute;
+        top: 30px;
+        left: 5px;
+        font-size: 30px;
+    }
+    .menu-btn{
+    display: block;
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background-color: black;
+        margin-top: -900px;
+        transition: all 0.5s ease;
+    }
+    .nav-links  a{
+        color: whitesmoke;
+        text-decoration: none;
+        /* transition: all 0.5s ease; */
+    
+    }
+
+    .mobile-menu{
+        margin-top: 0px;
+        border-bottom-right-radius: 30%;
+    }
+    .nav-links li{
+        margin: 30px auto;
+    }
+
+    .explore-info h3 {
+        font-size: 60px;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-bottom: 50px;
+        text-align: center;
+        color:  whitesmoke;
+        margin-top: 50px;
+    }
+}    
+
+   
+
+
+
+
+
