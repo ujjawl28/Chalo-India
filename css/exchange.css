@@ -128,8 +128,8 @@ footer {
     color: #00a8b4;
     /* font-size: larger; */
     /* text-align: center; */
-    padding-left: 30px;
-}
+    /* padding-left: 30px;
+} */
 
 
 
@@ -192,10 +192,7 @@ footer {
         margin-top: 70px;
         font-size: 40px;
     }
-      /* #exchange{
-        height: 1200px;
-    } */
-    
+ 
     label{
         font-size: 20px;
     }
