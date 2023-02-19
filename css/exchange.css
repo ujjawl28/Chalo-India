@@ -5,6 +5,14 @@
 }
 /* navbar  */
 
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
 .navbar{
     position: absolute;
     top: 0;
@@ -67,7 +75,7 @@ ul{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 712px;
+    /* height: 712px; */
 }
 
 .heading{
@@ -101,9 +109,10 @@ form select{
     font-size: 20px;
 }
 .btn{
-    margin-top: 35px;
+    margin-top: 25px;
     /* margin-bottom: 15px; */
     width: 15%;
+    margin-bottom: 20px;
     
 }
 
@@ -113,9 +122,7 @@ footer {
     border-top: 3px solid #00a8c5;
 }
 
-.footer-row{
-    margin-top: 50px;
-}
+/*
 
 .footer-col h2{
     color: #00a8b4;
@@ -185,9 +192,9 @@ footer {
         margin-top: 70px;
         font-size: 40px;
     }
-      #exchange{
+      /* #exchange{
         height: 1200px;
-    }
+    } */
     
     label{
         font-size: 20px;
