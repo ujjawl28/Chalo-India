@@ -61,7 +61,7 @@ ul{
 
 #flight{
    
-    background-image: url(../image/william-topa-dG8d8JYnnvA-unsplash.jpg);
+    background: linear-gradient(0deg,rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../image/flight_image.avif);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,7 +70,7 @@ ul{
     padding-bottom: 25px;
     text-align: center;
     width: 100%;
-    /* height: 705px; */
+   height: 100vh;
 }
 
 .form{
